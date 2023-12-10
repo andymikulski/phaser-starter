@@ -8,7 +8,9 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["DOM", "ES2015", "ScriptHost"]
+    "lib": ["DOM", "ES2015", "ScriptHost"],
+    "downlevelIteration": true,
+    "strictNullChecks": true
   },
   "include": [
     "src/**/*"
